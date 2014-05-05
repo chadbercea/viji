@@ -1,0 +1,189 @@
+/*default version*/
+@font-face {
+	font-family: 'otari';
+	src:
+		local('otari'),
+		local('otari'),
+		url('../fonts/Otari/Otari-LightItalic.otf')
+		format('opentype');
+}
+/*bold version*/
+/*
+@font-face {
+	font-family: 'otari-b';
+	src:
+		local('otari-b'),
+		local('otari-b'),
+		url('fonts/Otari/Otari-Bold.otf')
+		format('opentype');
+	font-weight: bold;
+}
+*/
+/*container element*/
+body, h1, h2, h3, h4 {
+	font-family: 'otari' !important;
+	text-transform: none;
+	letter-spacing: 0;
+}
+body {
+background: url(../img/VIGI-BOAT.jpg) no-repeat bottom center fixed;
+background-color: #000;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+background-size: cover;
+-o-background-size: cover;
+overflow: hidden;
+clear: both;
+}
+.logo-nav {
+	background:none !important;
+	width: 100%;
+}
+.logo {
+	width: 115px;
+	margin: 0 auto;
+}
+.logo img {
+	width: 75px;
+	height: 75px;
+	margin: 20px;
+}
+.intro {
+	background: none;
+	padding: 0;
+}
+.intro-body {
+	padding: 0;
+	margin: 0;
+	background: none !important;
+}
+
+
+.iphone img {
+	width: 300px;
+/*	background: red;*/
+}
+
+.iphone, .cta {
+	margin-top: 60px;
+
+}
+
+/*.iphone {
+	background: url(../img/iphonegold.png);
+	width: 552px;
+	height: 824px;
+}*/
+
+.cta {
+/*	width: 100%;
+	height: 100%;*/
+/*	background: blue;*/
+}
+
+#about {
+	height: 100%;
+	padding-top: 40px;
+}
+#about .btn {
+	border-radius: 0;
+	width: 40px;
+	height: 40px;
+}
+
+.btn {
+	padding: 0px;
+/*	margin: 0px;*/
+	line-height: 1;
+	font-size: 35px;
+}
+
+.btn-circle {
+	margin-top: -125px
+}
+
+
+.store {
+	width: 30%;
+	height: 75px;
+/*	background: green;*/
+	margin: 0 3px;
+}
+
+.store-links {
+	width: 75px;
+	height: 75px;
+	margin: 0 3px;
+	border: solid 1px white;
+}
+.store-links img {
+	width: 100%;
+	margin-top: 5px;
+}
+.store-links p {
+	margin: 0 0;
+	font-size: 1em;
+	line-height: 2em;
+
+}
+.store img {
+	width: 75px;
+}
+a {
+	color: white;
+}
+.cta .row:first-child {
+	margin-top: 60px;
+}
+.cta-btn {
+	width: auto;
+	height: 65px;
+	margin-top: 30px;
+	border: solid 1px white;
+	background-color: rgba(0,0,0,.2)
+}
+.cta-btn p {
+	line-height: 60px;
+}
+
+@media (max-width: 767px) {
+	.intro {
+		margin: 0 0 !important;
+/*		background-color: red;*/
+	}
+	.intro-body {
+		height: 100%;
+	}
+	.iphone img {
+		width: 200px;
+	}
+	.cta-copy {
+		display: none;
+	}
+	.cta-store-icons {
+		display: none;
+	}
+	.cta-btn {
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: -95px;
+		width: 300px;
+	}
+	h2 {
+		font-size: 1.4em;
+		font-family: 'otari';
+	}
+	.iphone, .cta {
+		margin-top: 0px !important;
+	}
+	.content-section {
+		padding: 0;
+	}
+
+}
+@media (min-width: 990px;) {
+	.cta-copy {
+		display: none;
+	}
+
+}
