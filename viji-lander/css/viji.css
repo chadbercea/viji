@@ -25,6 +25,8 @@ body, h1, h2, h3, h4 {
 	text-transform: none;
 	letter-spacing: 0;
 }
+
+
 body {
 background: url(../img/VIGI-BOAT.jpg) no-repeat bottom center fixed;
 background-color: #000;
@@ -46,7 +48,7 @@ clear: both;
 .logo img {
 	width: 75px;
 	height: 75px;
-	margin: 20px;
+	margin: 0px;
 }
 .intro {
 	background: none;
@@ -99,35 +101,37 @@ clear: both;
 }
 
 .btn-circle {
-	margin-top: -125px
+	margin-top: -210px
 }
 
 
 .store {
-	width: 30%;
-	height: 75px;
+	width: 10px;
+	height: 30px;
 /*	background: green;*/
 	margin: 0 3px;
 }
 
 .store-links {
-	width: 75px;
-	height: 75px;
-	margin: 0 3px;
-	border: solid 1px white;
+	width: 95px;
+	height: 95px;
+	margin: 2% 2%;
+	border: solid 5px white;
+	padding-top: 15px;
 }
 .store-links img {
-	width: 100%;
-	margin-top: 5px;
+	width: 35px;
+	height: 35px;
 }
 .store-links p {
 	margin: 0 0;
-	font-size: 1em;
+	font-size: .8em;
 	line-height: 2em;
 
 }
 .store img {
-	width: 75px;
+	width: 55px;
+	opacity: .6;
 }
 a {
 	color: white;
@@ -139,17 +143,65 @@ a {
 	width: auto;
 	height: 65px;
 	margin-top: 30px;
-	border: solid 1px white;
+	border: solid 3px white;
 	background-color: rgba(0,0,0,.2)
 }
 .cta-btn p {
 	line-height: 60px;
 }
 
+	form {
+/* 		margin-top: 40px; */
+	}
+	.input{
+		width: 100%;
+		height: 50px;
+		background: transparent;
+		-webkit-background: transparent;
+		border: solid 3px white;
+		margin-top: 5px;
+	}
+	#username {
+		margin-top: -10px;
+	}
+	.submit-btn {
+		width: 60%;
+		height: 45px;
+		margin-top: 30px;
+		margin-left: auto;
+		margin-right: auto;
+		border: solid 3px white;
+		background-color: rgba(0,0,0,.2);
+	}
+	.submit-btn p {
+		line-height: 40px;	
+	}
+
+
+
+@media (max-width:992px) {
+	.cta-copy {
+		display: none;
+	}
+	.store {
+		background: green;
+	}
+	.cta-store-icons {
+		display: none;
+	}
+	.cta-btn {
+		margin-top: -100px;
+		max-width: 500px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	
+}
 @media (max-width: 767px) {
 	.intro {
 		margin: 0 0 !important;
-/*		background-color: red;*/
+/* 		background-color: blue; */
 	}
 	.intro-body {
 		height: 100%;
@@ -179,11 +231,50 @@ a {
 	.content-section {
 		padding: 0;
 	}
-
-}
-@media (min-width: 990px;) {
-	.cta-copy {
-		display: none;
+	.cta-links-container {
+		width: 100%;
+	}
+	.cta-links-wrapper {
+		width: 70%;
+		margin: 0 auto;
+	}
+	.store-links {
+		width: 65px;
+		height: 65px;
+		margin: 5px;
+		border: solid 3px white;
+		padding-top: 5px;
+		padding-left: 12px;
+	}
+	form {
+/* 		margin-top: 40px; */
+	}
+	.input{
+		width: 100%;
+		height: 50px;
+		background: transparent;
+		-webkit-background: transparent;
+		border: solid 3px white;
+		margin-top: 5px;
+	}
+	#username {
+		margin-top: -10px;
+	}
+	.submit-btn {
+		width: 60%;
+		height: 45px;
+		margin-top: 30px;
+		margin-left: auto;
+		margin-right: auto;
+		border: solid 3px white;
+		background-color: rgba(0,0,0,.2);
+	}
+	.submit-btn p {
+		line-height: 40px;	
 	}
 
 }
+
+
+	
+
