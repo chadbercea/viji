@@ -107,7 +107,7 @@ clear: both;
 }
 
 .btn-circle {
-	margin-top: -210px
+	margin-top: -175px
 }
 
 
@@ -120,29 +120,38 @@ clear: both;
 /* 	margin: 0 3px; */
 }
 
-/*
+
 .store-links {
-	width: 95px;
-	height: 95px;
-	margin: 2% 2%;
-	border: solid 5px white;
-	padding-top: 15px;
+	width: 29%;
+	margin: 0 2%;
+	border: solid 3px white;
+	padding-top: 10px;
 }
-*/
+
 .store-links img {
-	width: 35px;
-	height: 35px;
+	width: 55px;
+	opacity:.6;
+	padding: 8px;
+	/*height: 35px;*/
 }
+
 .store-links p {
 	margin: 0 0;
 	font-size: .8em;
 	line-height: 2em;
-
 }
+
 .store img {
 	width: 55px;
 	opacity: .6;
 }
+
+.store-links:hover {
+	cursor:pointer;
+	background-color:rgba(255,255,255,.4);	
+	border:solid 3px white;
+}
+
 a {
 	color: white;
 }
@@ -172,12 +181,12 @@ a {
 		margin-top: 5px;
 	}
 	#username {
-		margin-top: -10px;
+		margin-top: 0px;
 	}
 	.submit-btn {
-		width: 60%;
+/* 		width: 60%; */
 		height: 45px;
-		margin-top: 30px;
+		margin-top: 20px;
 		margin-left: auto;
 		margin-right: auto;
 		border: solid 3px white;
@@ -245,17 +254,21 @@ a {
 		width: 100%;
 	}
 	.cta-links-wrapper {
-		width: 70%;
+		width: 72%;
 		margin: 0 auto;
 	}
 	.store-links {
-		width: 30%;
+		width: 29%;
 /* 		height: 65px; */
-		margin-right: 3.33%;
+		margin-right: 2%;
 		border: solid 3px white;
 		padding-top: 5px;
-		padding-left: 12px;
+		padding-left: 2%;
 	}
+	.store-links p {
+		padding-left: 9px;
+	}
+
 	form {
 /* 		margin-top: 40px; */
 	}
@@ -267,13 +280,10 @@ a {
 		border: solid 3px white;
 		margin-top: 5px;
 	}
-	#username {
-		margin-top: -10px;
-	}
 	.submit-btn {
-		width: 60%;
+		/*width: 60%;*/
 		height: 45px;
-		margin-top: 30px;
+		/*margin-top: 30px;*/
 		margin-left: auto;
 		margin-right: auto;
 		border: solid 3px white;
@@ -285,6 +295,13 @@ a {
 
 }
 
+.form {
+	padding-top: 15px;
+}
+
+.cta-store-icons-links {
+	margin-left: 3PX;
+}
 
 	
 
